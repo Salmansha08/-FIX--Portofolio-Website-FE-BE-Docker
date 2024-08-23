@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-const colors = require('tailwindcss/colors')
+const colors = require("tailwindcss/colors");
 
 const config: Config = {
   content: [
@@ -24,7 +24,12 @@ const config: Config = {
         transparent: "transparent",
         warning: "#b91c1c",
         success: "#22c55e",
-      }
+        sky: colors.sky,
+        stone: colors.stone,
+        neutral: colors.neutral,
+        gray: colors.gray,
+        slate: colors.slate,
+      },
     },
   },
   plugins: [],
